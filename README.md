@@ -18,12 +18,15 @@ Atau download .zip
 cara menjalankanya sangat mudah, buka terminal dan run main.py
 
 Buka terminal
+
 ` Ctrl + Alt + T `
 
 Ubah direktori ke Jomblo-Story
+
 ` cd path/to/Jomblo-Story `
 
 Jalankan main.py
+
 ` python3 main.py `
 
 ## Kontribusi
