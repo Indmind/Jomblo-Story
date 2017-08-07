@@ -3,6 +3,7 @@ import time
 import module.loading as ld
 import module.command as cmd
 import data_manager as dm
+from module.chat_system import chat_line as chatl
 from module.setup import speaker as s
 from module.text_type import textType as tt
 
@@ -20,6 +21,11 @@ def start():
     tt('\nBerjalan menelusuri trotoar kota yang indah...')
     time.sleep(2)
     tt('\n\n\nGUBRAKK!!!!......', .01)
+    ld.deGa()
+    tt('\n\n\nKamu tidak sengaja menabrak seorang cewek\n')
+    chatl('unknown', 'eh...')
+    chatl('kamu', 'maaf maaf...')
+    chatl('unknown', 'iya gpp, santai aja...')
 
 
 

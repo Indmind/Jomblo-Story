@@ -6,3 +6,5 @@ def textType(text, delay=.1):
         print(i, end='')
         sys.stdout.flush()
         time.sleep(delay)
+        if i == ',':
+            time.sleep(.4)
