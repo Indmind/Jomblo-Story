@@ -3,13 +3,14 @@ import time
 import module.loading as ld
 import module.command as cmd
 import module.character_loader as cl
+import module.os_manager as om
 import data_manager as dm
 from module.chat_system import chat_line as chatl
 from module.setup import speaker as s
 from module.text_type import textType as tt
 
 def start():
-    os.system('clear')
+    om.clear()
     time.sleep(.5)
     tt('Pada suatu hari', .2)
     time.sleep(.5)
