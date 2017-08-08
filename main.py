@@ -5,7 +5,7 @@ import module.scene_manager as sm
 import module.character_loader as cl
 import module.os_manager as om
 import data_manager as dm
-from module.text_type import textType as tt
+from module.typing_text import textType as tt
 
 cur_path = os.path.dirname(__file__)
 

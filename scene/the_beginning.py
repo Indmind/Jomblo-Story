@@ -7,7 +7,7 @@ import module.os_manager as om
 import data_manager as dm
 from module.chat_system import chat_line as chatl
 from module.setup import speaker as s
-from module.text_type import textType as tt
+from module.typing_text import textType as tt
 
 def start():
     om.clear()
