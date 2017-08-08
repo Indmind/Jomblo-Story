@@ -2,6 +2,7 @@ import os
 import time
 import module.loading as ld
 import module.scene_manager as sm
+import module.character_loader as cl
 import data_manager as dm
 from module.text_type import textType as tt
 
@@ -26,6 +27,9 @@ def SplashLoad():
         dm.loadSavedProgress();
     elif menu == '3' or menu == 'keluar':
         exit(0)
+    elif menu == 'char':
+        #oldData = dm.getCharInfo()
+        dm.setCharInfo({"test": "test"})
     else:
         print('                          Menu salah...')
         input('                  Tekan enter untuk melanjutkan...')

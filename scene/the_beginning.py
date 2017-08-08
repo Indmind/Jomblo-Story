@@ -2,6 +2,7 @@ import os
 import time
 import module.loading as ld
 import module.command as cmd
+import module.character_loader as cl
 import data_manager as dm
 from module.chat_system import chat_line as chatl
 from module.setup import speaker as s
@@ -22,10 +23,10 @@ def start():
     time.sleep(2)
     tt('\n\n\nGUBRAKK!!!!......', .01)
     ld.deGa()
-    tt('\n\n\nKamu tidak sengaja menabrak seorang cewek\n')
-    chatl('unknown', 'eh...')
+    tt('\n\n\nKamu tidak sengaja menabrak seorang cewe\n')
+    chatl('cewe', 'eh...')
     chatl('kamu', 'maaf maaf...')
-    chatl('unknown', 'iya gpp, santai aja...')
+    chatl('cewe', 'iya gpp, santai aja...')
 
 
 
