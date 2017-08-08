@@ -12,3 +12,11 @@ def chat_line(name, chat):
     ld.deGa()
     tt(chat)
     ld.deGa()
+
+def story_telling(text, delay=.1):
+    ld.deGa()
+    tt("\n"+text, delay)
+
+def new_line(num=1):
+    for i in range(num):
+        print("\n")
