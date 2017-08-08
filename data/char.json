@@ -1,0 +1,89 @@
+{
+    "Mia": {
+        "nama": "Mia",
+        "kelamin": "perempuan",
+        "umur": 20,
+        "pekerjaan": "mahasiswa",
+        "status": "jomblo",
+        "suka_pada": "kamu",
+        "makanan_kesukaan": "ayam goreng",
+        "hoby": "jalan-jalan"
+    },
+    
+    "Diana": {
+        "nama": "Diana",
+        "kelamin": "perempuan",
+        "umur": 20,
+        "pekerjaan": "mahasiswa",
+        "status": "jomblo",
+        "suka_pada": "kamu",
+        "makanan_kesukaan": "lasagna",
+        "hoby": "musik"
+    },
+    
+    "Dinda": {
+        "nama": "Dinda",
+        "kelamin": "perempuan",
+        "umur": 20,
+        "pekerjaan": "mahasiswa",
+        "status": "jomblo",
+        "suka_pada": "kamu",
+        "makanan_kesukaan": "mie",
+        "hoby": "ngoding"
+    },
+    
+    "Widya": {
+        "nama": "Widya",
+        "kelamin": "perempuan",
+        "umur": 20,
+        "pekerjaan": "mahasiswa",
+        "status": "jomblo",
+        "suka_pada": "kamu",
+        "makanan_kesukaan": "soto",
+        "hoby": "dance"
+    },
+    
+    "Annisa": {
+        "nama": "Annisa",
+        "kelamin": "perempuan",
+        "umur": 20,
+        "pekerjaan": "mahasiswa",
+        "status": "jomblo",
+        "suka_pada": "kamu",
+        "makanan_kesukaan": "rendang",
+        "hoby": "menulis"
+    },
+    
+    "Doni": {
+        "nama": "Doni",
+        "kelamin": "laki-laki",
+        "umur": 20,
+        "pekerjaan": "mahasiswa",
+        "status": "jomblo",
+        "suka_pada": "Widy",
+        "makanan_kesukaan": "jengkol",
+        "hoby": "fighting"
+    },
+    
+    "Reza": {
+        "nama": "Reza",
+        "kelamin": "laki-laki",
+        "umur": 20,
+        "pekerjaan": "mahasiswa",
+        "status": "jomblo",
+        "suka_pada": "Widya",
+        "makanan_kesukaan": "bakso",
+        "hoby": "main game"
+    },
+    
+    "Putra": {
+        "nama": "Putra",
+        "kelamin": "laki-laki",
+        "umur": 20,
+        "pekerjaan": "mahasiswa",
+        "status": "jomblo",
+        "suka_pada": "Annisa",
+        "makanan_kesukaan": "bubur",
+        "hoby": "futsal"
+    }
+}

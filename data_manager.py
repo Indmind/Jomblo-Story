@@ -13,7 +13,10 @@ def getCharInfo():
         data = json.load(f)
         return data
 
-def setCharInfo(dat):
+def setCharInfo(data):
+    #with open('data/char.json', 'w') as f:
+    oldData = getCharInfo()
+    oldData.update(data)
     with open('data/char.json', 'w') as f:
-        oldData = getCharInfo()
+        json.dump(oldData, f)
 # print(getUserInfo()['name'])
