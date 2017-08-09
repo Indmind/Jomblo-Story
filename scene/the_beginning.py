@@ -38,4 +38,4 @@ def start():
     st('dia kecelakaan....')
     st('tamat....')
     nl(1)
-
+# gg
