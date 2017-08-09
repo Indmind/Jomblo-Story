@@ -6,10 +6,13 @@ import data_manager as dm
 from module.setup import speaker as s
 from module.typing_text import textType as tt
 
-import scene.the_beginning as tb
+import scene.the_beginning as firstScene
 
 
-def firstScene():
-	tb.start()
+def load(ans):
+    try:
+        exec(ans+'.start()')
+    except NameError:
+        print('Error: no lavel '+ans)
     
 

@@ -2,6 +2,7 @@ import time
 import sys
 
 def textType(text, delay=.1):
+    print(' ', end='')
     for i in text:
         print(i, end='')
         sys.stdout.flush()
