@@ -31,11 +31,7 @@ Jalankan main.py
 
 ## Kontribusi
 
-Untuk berkontribusi cukup fork project ini, clone ke
-komputer anda, dan buat pull request. 
-
-Jika sudah membuat 1/2 pull request yang saya terima, 
-kamu akan dapat akses langsung ke repo ini
+Serah
 
 ## Membuat Scene
 

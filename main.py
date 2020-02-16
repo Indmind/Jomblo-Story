@@ -8,7 +8,7 @@ import data_manager as dm
 from module.typing_text import textType as tt
 
 cur_path = os.path.dirname(__file__)
-user_info = dm.getUserInfo();
+user_info = dm.getUserInfo()
 
 def SplashLoad():
     try:
@@ -26,6 +26,7 @@ def SplashLoad():
         menu = input('                               ')
         if menu == '1' or menu == 'baru':
             sm.load('firstScene')
+            sm.load('secondScene')
         elif menu == '2' or menu == 'lanjut':
             cs = dm.loadSavedProgress()
             if not cs == False:

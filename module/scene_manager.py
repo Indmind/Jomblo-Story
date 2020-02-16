@@ -7,6 +7,7 @@ from module.setup import speaker as s
 from module.typing_text import textType as tt
 
 import scene.the_beginning as firstScene
+import scene.melayat as secondScene
 
 
 def load(ans):
